@@ -1,0 +1,33 @@
+.register{
+    margin-left: 30%;
+}
+.inputBox{
+    display: block;
+    padding: 7px;
+    margin:10px 0;
+    width: 300px ;
+    border:1px solid rgb(57, 199, 255);
+}
+
+.btnStyle{
+    display: block;
+    padding: 7px;
+    margin:15px 0;
+    width: 315px ;
+    border:1px solid rgb(57, 199, 255);
+    /* box-shadow: 10px 8px 4px rgb(153, 151, 151); */
+    background-color: rgb(189, 255, 189);
+    color:rgb(48, 39, 173);
+    font-weight: 600;
+    transition: 0.2s;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.btnStyle:hover{
+    background-color: rgb(166, 255, 166);
+}
+.btnStyle:active{
+    transform: translateY(4px);
+    border:1px solid rgb(57, 199, 255);
+    /* box-shadow: 3px 1px 4px rgb(153, 151, 151); */
+}

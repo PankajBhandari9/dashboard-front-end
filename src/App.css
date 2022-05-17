@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+.wholeApp{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-list{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headings{
+    margin: 1.5rem 0 1rem ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product-list ul li{
+    display: inline-block;
+    border:1px solid rgb(80, 206, 80);
+    padding: 15px;
+    width: 150px;
+    margin: -1px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.actionLi{
+    cursor: pointer;
+    margin: -3px 4px;
+    padding: 2px 8px;
+}
+.updateLink{
+    color:white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.updateLink:hover{
+    color:black;
+    background-color:rgb(80, 206, 80);
+    border-radius: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.btnDelete{
+    background-color: rgb(80, 206, 80);
+    border-radius: 6px;
+    padding: 4px 11px;
+    font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flexBox{
+    display: flex;
+}
+.errorsArea{
+    color:rgb(247, 73, 73);
+    margin-top: 2.1rem;
+    margin-left: 1rem;
+}
+.inputSearch{
+    margin:1.5rem 0 !important;
 }

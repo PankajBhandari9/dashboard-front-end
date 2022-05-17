@@ -1,0 +1,36 @@
+.ul-class
+{
+    padding: 15px;
+    background-color: rgb(80, 206, 80);
+    margin:0;
+}
+.links{
+    margin:0 10px;
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.ul-class li{
+    list-style: none;
+    display: inline;
+    margin:0 10px;
+    padding: 10px 0;
+}
+
+.right-side{
+    text-align:right;
+}
+
+.footer-class{
+    color:rgb(255, 255, 255);
+    background-color: rgb(80, 206, 80);
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+.logoStyle{
+    width: 40px;
+    float: left;
+    margin:4px 5px 0 20px;
+    /* filter: invert(100%); */
+}
